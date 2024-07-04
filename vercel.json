@@ -9,7 +9,11 @@
     "routes":[
         {
             "src":"(.*)",
-            "dest":"src/routes/index.js"
+            "dest":"/src/routes/index.js"
         }
-    ]
+    ],
+    "env":{
+    "NODE_ENV":"production",
+    "MONGO_URL":"mongodb+srv://vgd15:Deise1998@cluster0.ehqzbzl.mongodb.net/node-livros"
+    }
 }
